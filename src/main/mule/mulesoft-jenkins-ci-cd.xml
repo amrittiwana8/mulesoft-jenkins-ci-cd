@@ -17,7 +17,7 @@ output application/json
 ---
 {
 	"status": "Success",
-	"message": "Hello - this is CI/CD"
+	"message": "Hello - First change in CI CD"
 }]]></ee:set-payload>
 			</ee:message>
 		</ee:transform>

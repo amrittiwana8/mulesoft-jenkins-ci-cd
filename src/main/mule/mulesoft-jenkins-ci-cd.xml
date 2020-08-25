@@ -9,7 +9,7 @@ http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/
 		<http:listener-connection host="0.0.0.0" port="8081" />
 	</http:listener-config>
 	<flow name="mulesoft-jenkins-ci-cdFlow" doc:id="2f6e22c7-2baf-4d8e-9a23-507cb0404cd3" >
-		<http:listener doc:name="Listener" doc:id="5865711f-d3d5-424f-8923-e032ad6b8c8a" config-ref="HTTP_Listener_config" path="/jenkins"/>
+		<http:listener doc:name="Listener" doc:id="5865711f-d3d5-424f-8923-e032ad6b8c8a" config-ref="HTTP_Listener_config" path="/jenkins" />
 		<ee:transform doc:name="Transform Message" doc:id="34aec23e-ca33-440f-9d48-967dcf169b26" >
 			<ee:message >
 				<ee:set-payload ><![CDATA[%dw 2.0

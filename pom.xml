@@ -39,6 +39,8 @@
 						<password>${password}</password>
 						<environment>${environment}</environment>
 						<applicationName>mulesoft-jenkins-ci-cd</applicationName>
+						<workers>1</workers>
+						<workerType>Micro</workerType>
 					</cloudHubDeployment>
 				</configuration>
 			</plugin>
